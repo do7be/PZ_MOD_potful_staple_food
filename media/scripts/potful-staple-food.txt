@@ -1,0 +1,42 @@
+module potfulStapleFood
+{
+    imports
+    {
+        Base
+    }
+
+    item Rice
+    {
+        Weight	=	2,
+        Type	=	Food,
+        DisplayName	=	Rice,
+        Icon	=	RiceRaw,
+        HungerChange    =   -60,
+        UnhappyChange   =   40,
+        ThirstChange    =   60,
+        Carbohydrates = 648,
+        Proteins = 72,
+        Lipids = 0,
+        Calories = 2880,
+        Packaged = TRUE,
+        WorldStaticModel = Rice,
+    }
+
+    item Pasta
+    {
+        Weight	=	2,
+        Type	=	Food,
+        DisplayName	=	Pasta,
+        Icon	=	SpagettiRaw,
+        HungerChange    =   -60,
+        UnhappyChange   =   40,
+        ThirstChange    =   60,
+        Carbohydrates = 656,
+        Proteins = 112,
+        Lipids = 16,
+        Calories = 3360,
+        Packaged = TRUE,
+        WorldStaticModel = Pasta,
+    }
+}
+
