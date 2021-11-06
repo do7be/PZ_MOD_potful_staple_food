@@ -16,7 +16,7 @@ module Base
         Packaged = TRUE,
         WorldStaticModel = Rice,
         FoodType    =   Rice,
-		EvolvedRecipe = RicePot:10,
+        EvolvedRecipe = RicePot:10,
     }
 
     item Pasta
@@ -35,7 +35,7 @@ module Base
         Packaged = TRUE,
         WorldStaticModel = Pasta,
         FoodType    =   Pasta,
-		EvolvedRecipe = PastaPot:10,
+        EvolvedRecipe = PastaPot:10,
     }
 }
 
