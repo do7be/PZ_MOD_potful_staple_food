@@ -1,10 +1,5 @@
-module potfulStapleFood
+module Base
 {
-    imports
-    {
-        Base
-    }
-
     item Rice
     {
         Weight	=	2,
@@ -20,6 +15,8 @@ module potfulStapleFood
         Calories = 2880,
         Packaged = TRUE,
         WorldStaticModel = Rice,
+        FoodType    =   Rice,
+		EvolvedRecipe = RicePot:10,
     }
 
     item Pasta
@@ -37,6 +34,8 @@ module potfulStapleFood
         Calories = 3360,
         Packaged = TRUE,
         WorldStaticModel = Pasta,
+        FoodType    =   Pasta,
+		EvolvedRecipe = PastaPot:10,
     }
 }
 
